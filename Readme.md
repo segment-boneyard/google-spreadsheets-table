@@ -1,7 +1,7 @@
 
 # google-spreadsheets-table
 
-  A cached Google Spreadsheets table.
+  A cached Google Spreadsheets table over [segmentio/google-spreadsheets](/segmentio/google-spreadsheets).
 
 ## Install
 
@@ -12,7 +12,7 @@
 ### Initialize the Sheet
 
 ```js
-var Table = require('google-spreadsheets');
+var Table = require('google-spreadsheets-table');
 
 var table = Table(worksheet)
   .headerRow(1)
@@ -31,6 +31,22 @@ table.set('steve1' { name: 'Steve Johnson'});
 
 ```js
 table.flush();
+```
+
+### Full Example
+
+```js
+var spreadsheets = require('google-spreadsheets');
+var Table = require('google-spreadsheets-table');
+
+spreadsheets
+  .login('username', 'password')
+  .key('0AvP3ixW_RotVdHdnWDZvUHhnWWhHQy0xZFViN3hUSmc')
+  .open(function (err, spreadsheet) {
+    var worksheets = spreadsheet.worksheets;
+    var worksheet = spreadsheet.select(worksheets[0].id);
+    var table = Table(worksheet);
+  });
 ```
 
 ## API
