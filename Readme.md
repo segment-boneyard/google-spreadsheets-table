@@ -23,8 +23,10 @@ var table = Table(worksheet)
 ### Update a Cell
 
 ```js
-table.set('steve1', { email: 'user@gmail.com'});
-table.set('steve1' { name: 'Steve Johnson'});
+table.set('hearthrob', { email: 'gordon@papyrushealth.com'});
+table.set('hearthrob' { name: 'Gordon Hearthrob'});
+table.set('calvin4', { email: 'calvin@segment.io'});
+table.set('calvin4' { name: 'Calvin French-Owen'});
 ```
 
 ### Flush Updates
@@ -32,6 +34,9 @@ table.set('steve1' { name: 'Steve Johnson'});
 ```js
 table.flush();
 ```
+
+![](https://dl.dropboxusercontent.com/s/dls62mg82b3e419/Screenshot%202013-12-15%2023.57.20.png?dl=1&token_hash=AAERwyBCZ_wGA8yAHi8DWRHuEJpa40AGCFaPhvu-5rajDQ)
+
 
 ### Full Example
 
