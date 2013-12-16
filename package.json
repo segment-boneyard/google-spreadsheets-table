@@ -1,0 +1,13 @@
+{
+  "name": "google-spreadsheets-table",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "ms": "~0.6.1",
+    "debug": "~0.7.4",
+    "google-spreadsheets": "git://github.com/segmentio/google-spreadsheets"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
+}
