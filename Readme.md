@@ -9,6 +9,8 @@
 
 ## Example
 
+![](https://dl.dropboxusercontent.com/s/dls62mg82b3e419/Screenshot%202013-12-15%2023.57.20.png?dl=1&token_hash=AAERwyBCZ_wGA8yAHi8DWRHuEJpa40AGCFaPhvu-5rajDQ)
+
 ### Initialize the Sheet
 
 ```js
@@ -34,8 +36,6 @@ table.set('calvin4' { name: 'Calvin French-Owen'});
 ```js
 table.flush();
 ```
-
-![](https://dl.dropboxusercontent.com/s/dls62mg82b3e419/Screenshot%202013-12-15%2023.57.20.png?dl=1&token_hash=AAERwyBCZ_wGA8yAHi8DWRHuEJpa40AGCFaPhvu-5rajDQ)
 
 
 ### Full Example
